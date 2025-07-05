@@ -1,6 +1,6 @@
-
 import 'package:flutter/material.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
+
 class user extends StatefulWidget {
   const user({super.key});
 
@@ -17,18 +17,17 @@ class _userState extends State<user> {
       backgroundColor: const Color(0xfffbfcf4),
       appBar: AppBar(
         backgroundColor: const Color(0xfffbfcf4),
-       leading: IconButton(
-        icon: const Icon(Icons.arrow_back),
-        onPressed: () {
-          Navigator.pop(context);
-        },
-      ),
-
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
         actions: [
           TextButton(
             onPressed: () {},
             child: const Text(
-              'Forgot Password ?',
+              'Forgot Password ???',
               style: TextStyle(
                 color: Color(0xff767676),
                 fontSize: 15,
@@ -40,15 +39,13 @@ class _userState extends State<user> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
-
-         // Container(
-            //width: 500,
+          // Container(
+          //width: 500,
           //   child: Image.asset(
           //     "assets/Image/Adobe Express - file.png",
           //     fit: BoxFit.contain,
           //   ),
-         //  ),
-
+          //  ),
 
           Container(
             margin: const EdgeInsets.only(right: 280),
@@ -67,12 +64,12 @@ class _userState extends State<user> {
                   borderSide: BorderSide(color: Color(0xff767676), width: 2),
                 ),
                 hintText: "divyesh.b@gmail.com",
-                contentPadding: EdgeInsets.symmetric(horizontal: 10, vertical: 15),
+                contentPadding:
+                    EdgeInsets.symmetric(horizontal: 10, vertical: 15),
               ),
               keyboardType: TextInputType.emailAddress,
             ),
           ),
-
 
           Container(
             margin: const EdgeInsets.only(right: 300, top: 20),
@@ -92,7 +89,8 @@ class _userState extends State<user> {
                   borderSide: BorderSide(color: Color(0xff767676), width: 2),
                 ),
                 hintText: "Enter Password",
-                contentPadding: EdgeInsets.symmetric(horizontal: 10, vertical: 15),
+                contentPadding:
+                    EdgeInsets.symmetric(horizontal: 10, vertical: 15),
               ),
             ),
           ),
@@ -122,7 +120,8 @@ class _userState extends State<user> {
             onPressed: () {},
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.black,
-              padding: const EdgeInsets.symmetric(horizontal: 170, vertical: 20),
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 170, vertical: 20),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
               ),
@@ -146,7 +145,8 @@ class _userState extends State<user> {
                   ),
                   TextSpan(
                     text: "Sign Up",
-                    style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+                    style: TextStyle(
+                        color: Colors.black, fontWeight: FontWeight.bold),
                   ),
                 ],
               ),
@@ -159,4 +159,3 @@ class _userState extends State<user> {
     );
   }
 }
-
