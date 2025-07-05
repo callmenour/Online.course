@@ -30,7 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  octo_image: ^2.1.0
+
+  salomon_bottom_bar: ^3.3.2
 
 
 

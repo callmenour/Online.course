@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-
+import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 class user extends StatefulWidget {
   const user({super.key});
 
@@ -41,13 +41,13 @@ class _userState extends State<user> {
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
 
-          Container(
-            width: 500,
-            child: Image.asset(
-              "assets/Image/Adobe Express - file.png",
-              fit: BoxFit.contain,
-            ),
-          ),
+         // Container(
+            //width: 500,
+          //   child: Image.asset(
+          //     "assets/Image/Adobe Express - file.png",
+          //     fit: BoxFit.contain,
+          //   ),
+         //  ),
 
 
           Container(
